@@ -1,0 +1,338 @@
+#wpwrap,
+#wpcontent,
+#wpbody,
+#wpbody-content
+{
+	min-height: 100%;
+	background-color: #FFFFFF;
+}
+
+/*
+	MAIN NAVIGATION
+*/
+#main_nav_with_comments
+{
+	text-align: left;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+#main_nav_no_comments
+{
+	text-align: center;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	display: block;
+}
+
+.remarks_button
+{
+	background-color: #EEEEEE;
+	min-height: 50px;
+	height: 50px;
+	max-height: 50px;
+	margin-right: 2%;
+	display: inline-block;
+	text-align: center;
+	width: 22%;
+	vertical-align: middle;
+	line-height: 150%;
+
+	-webkit-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-moz-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-ms-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-o-transition: 		background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	transition: 		background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+}
+
+.remarks_button .preamble
+{
+	-webkit-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-moz-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-ms-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-o-transition: 		background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	transition: 		background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+}
+
+.remarks_button .title
+{
+	-webkit-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-moz-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-ms-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-o-transition: 		background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	transition: 		background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+}
+
+.remarks_button_selected .title
+{
+	color: white;
+	font-size: 185%;
+}
+.remarks_button_selected .preamble
+{
+	font-size: 50%;
+}
+
+
+/*
+  INDIVIDUAL NAV BUTTON CUSTOMISATION
+*/
+#overview_button
+{
+	height: 25px;
+	min-height: 25px;
+	max-height: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#about_button
+{
+	height: 25px;
+	min-height: 25px;
+	max-height: 25px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	min-width: 22%;
+}
+
+#nav_row_2
+{
+  text-align: left;
+  position: absolute;
+  right: 0px;
+}
+
+.nav_row_2_member
+{
+  /* margin-left: 73%; */
+}
+
+#nav_row_3
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*
+	SUB OPTIONS
+*/
+.remarks_subbutton
+{
+	background-color: #EEEEEE;
+	min-width: 20%;
+	min-height:25px;
+	height: 25px;
+	max-height: 25px;
+	margin-right: 10px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+
+	-webkit-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-moz-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-ms-transition: 	background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	-o-transition: 		background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+	transition: 		background-color 0.4s linear, color 0.2s linear, font-size 0.2s linear;
+}
+
+.remarks_subbutton_selected
+{
+	color: white;
+	font-size: 160%;
+}
+
+/*
+  SECTION COLOURS
+*/
+
+.overview_bg_colour
+{
+	background-color: #ffbb33;
+}
+
+.post_bg_colour
+{
+	background-color: #ff4444;
+}
+
+.category_bg_colour
+{
+	background-color: #99cc00;
+}
+
+.author_bg_colour
+{
+	background-color: #aa66cc;
+}
+
+.geolocate_bg_colour
+{
+	background-color: #33b5e5;
+}
+
+.about_bg_colour
+{
+	background-color: #ffbb33;
+}
+
+/*
+  SECTIONS
+*/
+about
+{
+	background-color: #EEEEEE;
+	width: 60%;
+	padding: 5px;
+}
+
+
+/*
+	DISPLAYING
+*/
+#display
+{
+	width: 80%;
+	text-align: center;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+td
+{
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 25%;
+	align: center;
+}
+
+tr.header
+{
+	background-color: #EEEEEE;
+}
+
+tr.selected
+{
+	background-color: #EFEFEF;
+}
+
+.startHidden
+{
+	display: none;
+}
+
+img
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*
+  OVERVIEW
+*/
+#overview_div
+{
+  font-size: 110%;
+}
+
+/*
+	GEOLOCATION
+*/
+#geolocate_div
+{
+	vertical-align: top;
+}
+
+#geolocate_table
+{
+	margin-left: 0px;
+	margin-right: 0px;
+
+	width: 100%;
+}
+
+#geolocate_table td
+{
+	width: 50%;
+}
+
+#geolocate_map
+{
+	margin-left: auto;
+	margin-right: auto;
+
+	height: 500px;
+	width: 500px;
+}
+
+#geolocate_map_div
+{
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+}
+
+#geolocate_table_div
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+
+#geolocate_internals
+{
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+#map { height: 180px; }
+
+/*
+	FONTS
+*/
+h4
+{
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+h5
+{
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+/*
+	PIE CHARTS
+*/
+.pie_chart,
+.pie_legend {
+    display: inline-block;
+}
+
+.pie_chart {
+    vertical-align: middle;
+}
+
+.pie_legend {
+    vertical-align: middle;
+    padding-left: 5%;
+}
